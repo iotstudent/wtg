@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/css/all.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+    </script>
+    <style>
+  .navbar.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+  box-shadow:  0px -1px 15px 5px rgba(0,0,0,0.45);
+  color: rgba(33,64,154,255);
+}
+.navbar.scrolled a {
+  
+  color:#000;
+}
+
+    </style>
+    <title>WaizyTech Engineering</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- navigation -->
+        <div class="row navbar">
+            <div class="col-md-3">
+                <img src="img/logo_gold_sm.png" class="logo img-fluid" id="logo" alt="">
+            </div>
+            <div class="col-md-9">
+                <div  class="desk-nav">
+                    <ul>
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="about.html" >About us</a></li>
+                        <li><a href="projects.html" >Projects</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contactus.html" class="btn bg-primary rounded-pill special ">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <!-- hero -->
+         <div class="row">
+            <div class="col-md-12 chero">
+                    <h1 class="text-white text-center topping" style="margin:35% 25% 5% 25%;">
+                        CONTACT US 
+                    </h1>
+            </div>
+        </div>
+        <!-- form and others -->
+        <div class="row mb-1 mt-5 ">
+            <div class="col-md-2"> </div>
+            <div class="col-md-4"> 
+              <h2 class="topping mt-2 mb-3"> You can reach us</h2>
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
+            </div>
+            <div class="col-md-4 bg-primary mt-2" style="padding:8%;">
+               <ul style="list-style-type: none;">
+                <li class="text-white mb-1">contact@waizyengtech.com</li>
+                <li class="text-white mb-1">project@waizyengtech.com</li>
+                <li class="text-white mb-1">info@waizyengtech.com</li>
+                <li class="text-white mb-1">08085712095</li>
+                <li class="text-white mb-1">08085712095</li>
+                <li class="text-white mb-1">08085712095</li>
+               </ul>
+               <span class="ml-5">
+                <a href="http://"><i class="fab fa-twitter text-white"></i></a>
+                <a href="http://"><i class="fab fa-instagram text-white"></i></a>
+                <a href="http://"><i class="fab fa-facebook text-white"></i></a>
+                <a href="http://"><i class="fab fa-linkedin text-white"></i></a>
+               </span>
+            </div>
+            <div class="col-md-2"> </div>
+          </div>
+            <!-- google map -->
+            <div class="row">
+              <div class="col-md-2"> </div>
+                <div class="col-md-4 bg-primary pr-5 pl-5 pt-5 pb-5">
+                    <span class="text-white">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium exercitationem 
+                        expedita modi facilis molestias autem optio, nesciunt maiores, nam a ex 
+                        ullam dolor asperiores voluptas laudantium blanditiis labore consectetur at?
+                    </span>
+                    <br>
+                    <span class="text-white">
+                        xpedita modi facilis molestias autem optio, nesciunt maiores, nam a ex 
+                        ullam dolor asperiores voluptas laudantium blanditiis labore consectetur at?
+                    </span>
+                    <br>
+                    <span class="text-white">
+                        xpedita modi facilis molestias autem optio, nesciunt maiores, nam a ex 
+                        ullam dolor asperiores voluptas laudantium blanditiis labore consectetur at?
+                    </span>
+                </div>
+                <div class="col-md-4 mapouter">
+                    <div class="">
+                        <div class="gmap_canvas">
+                            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=16%20ishola%20imam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                           <style>.mapouter{position:relative;height:500px;width:100%;padding:0px !important;}</style>
+                            <style>.gmap_canvas {background:none!important;height:auto;width:100%;}</style>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"> </div>
+            </div>
+       
+        <!-- footer  -->
+        <div class="row bg-dark pl-5 pr-5 pt-5 pb-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                    <img src="img/logo.png" class=" logo img-responsive" alt="logo">
+                    <br>
+                    <span class="text-white ml-1">
+                       17,Salami Street,
+                       <br>
+                       Ikeja LGA, 
+                       <br>
+                       Lagos, Nigeira
+                       <br>
+                    </span>
+                    <span><a href="tel:08085712095" style="color: #fff;text-decoration: none;">08085712095</a></span>
+                  
+            </div>
+            <div class="col-md-2 footer-links">
+                <h4 class="text-white topping">Company</h4>
+                <ul>
+                    <li><a href=about.html" >About</a></li>
+                    <li><a href="projects.html" >Projects</a></li>
+                    <li><a href="services.html" >Services</a></li>
+                    <li><a href="contactus.html" >Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 footer-links">
+                <h4 class="text-white topping">Resources</h4>
+                <ul>
+                    <li><a href="http://" >Products</a></li>
+                    <li><a href="http://" >FAQ</a></li>
+                    <li><a href="http://" >Gallery</a></li>
+                    <li><a href="http://" ></a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 footer-links socials">
+                <h4 class="text-white topping">Socials</h4>
+                <ul>
+                    <li><a href="http://" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="http://" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="http://" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="http://" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</body>
+</html>
