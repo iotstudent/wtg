@@ -87,15 +87,40 @@ width: 42%;
     background-size: cover;
     background-attachment:fixed;
 }
-.shero{
-  
+.ahero{
+
   min-height:100vh;
-  background:linear-gradient(0deg, rgba(33, 64, 154, 0.2), rgba(33, 64, 154, 0.3)),url(../img/service.jpg);
+  background:linear-gradient(0deg, rgba(33, 64, 154, 0.2), rgba(33, 64, 154, 0.3)),url(../img/team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment:fixed;
 }
+.shero{
+  
+  min-height:100vh;
+  background:linear-gradient(0deg, rgba(33, 64, 154, 0.2), rgba(33, 64, 154, 0.3)),url(../img/serviceimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+.ser-img{
+  height:auto;
+  width:80%;
+  margin:5% 0% 5% 0%;
+  border-radius:7%;
+  border-style:solid;
+  border-color:#eff;
+  box-shadow: 10px 10px 5px #ccc;
+}
 
+.phero{
+  
+  min-height:100vh;
+  background:linear-gradient(0deg, rgba(33, 64, 154, 0.2), rgba(33, 64, 154, 0.3)),url(../img/project.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
 
 .chero{
   
